@@ -18,5 +18,46 @@ rad.json
 *.g.xlf
 #License-file
 *.flf
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.staging
+
+# API Keys and secrets
+*.key
+secrets.json
+config.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+genproj/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test files
+test_*.jpg
+test_*.png
+*.tmp
 #Test results file
-TestResults.xml
+TestResults.xml 
